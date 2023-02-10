@@ -27,8 +27,6 @@ const html = `
 </head>
 <body>
     <script type='text/javascript'>
-        console.log("${API_URL}");
-        console.log("Hello");
         localStorage.setItem("apiUrl", "${API_URL}");
         window.location.href = '/';
     </script>
